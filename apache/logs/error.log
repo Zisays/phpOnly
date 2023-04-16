@@ -1,0 +1,958 @@
+[Sun Jul 18 20:10:24.742432 2021] [mpm_winnt:notice] [pid 9364:tid 736] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Jul 18 20:10:24.743641 2021] [mpm_winnt:notice] [pid 9364:tid 736] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Jul 18 20:10:24.743641 2021] [core:notice] [pid 9364:tid 736] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Sun Jul 18 20:10:24.745642 2021] [mpm_winnt:notice] [pid 9364:tid 736] AH00418: Parent: Created child process 2544
+[Sun Jul 18 20:10:25.609926 2021] [mpm_winnt:notice] [pid 2544:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 18 20:20:07.824229 2021] [mpm_winnt:notice] [pid 9364:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 18 20:20:09.848659 2021] [mpm_winnt:notice] [pid 2544:tid 1428] AH00364: Child: All worker threads have exited.
+[Sun Jul 18 20:20:11.887406 2021] [mpm_winnt:notice] [pid 9364:tid 736] AH00430: Parent: Child process 2544 exited successfully.
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 20:52:47.895529 2021] [mpm_winnt:notice] [pid 11708:tid 672] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Jul 18 20:52:47.895529 2021] [mpm_winnt:notice] [pid 11708:tid 672] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Jul 18 20:52:47.895529 2021] [core:notice] [pid 11708:tid 672] AH00094: Command line: 'D:\\ww\\apache\\bin\\httpd.exe -d D:/ww/apache'
+[Sun Jul 18 20:52:47.897529 2021] [mpm_winnt:notice] [pid 11708:tid 672] AH00418: Parent: Created child process 3404
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 20:52:48.657908 2021] [mpm_winnt:notice] [pid 3404:tid 1424] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 18 20:54:24.751228 2021] [mpm_winnt:notice] [pid 11708:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 18 20:54:26.763628 2021] [mpm_winnt:notice] [pid 3404:tid 1424] AH00364: Child: All worker threads have exited.
+[Sun Jul 18 20:54:26.799760 2021] [mpm_winnt:notice] [pid 11708:tid 672] AH00430: Parent: Child process 3404 exited successfully.
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 20:54:36.205622 2021] [mpm_winnt:notice] [pid 13732:tid 728] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Jul 18 20:54:36.205622 2021] [mpm_winnt:notice] [pid 13732:tid 728] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Jul 18 20:54:36.205622 2021] [core:notice] [pid 13732:tid 728] AH00094: Command line: 'D:\\ww\\apache\\bin\\httpd.exe -d D:/ww/apache'
+[Sun Jul 18 20:54:36.207621 2021] [mpm_winnt:notice] [pid 13732:tid 728] AH00418: Parent: Created child process 1664
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 20:54:37.067334 2021] [mpm_winnt:notice] [pid 1664:tid 1424] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 18 20:59:55.078537 2021] [mpm_winnt:notice] [pid 13732:tid 728] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 18 20:59:57.102368 2021] [mpm_winnt:notice] [pid 1664:tid 1424] AH00364: Child: All worker threads have exited.
+[Sun Jul 18 20:59:57.123502 2021] [mpm_winnt:notice] [pid 13732:tid 728] AH00430: Parent: Child process 1664 exited successfully.
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 21:11:35.618395 2021] [mpm_winnt:notice] [pid 2064:tid 756] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Jul 18 21:11:35.618395 2021] [mpm_winnt:notice] [pid 2064:tid 756] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Jul 18 21:11:35.618395 2021] [core:notice] [pid 2064:tid 756] AH00094: Command line: 'D:\\ww\\apache\\bin\\httpd.exe -d D:/ww/apache'
+[Sun Jul 18 21:11:35.620395 2021] [mpm_winnt:notice] [pid 2064:tid 756] AH00418: Parent: Created child process 12840
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 21:11:36.460419 2021] [mpm_winnt:notice] [pid 12840:tid 1424] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 18 21:11:41.206342 2021] [mpm_winnt:notice] [pid 2064:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 18 21:11:43.223133 2021] [mpm_winnt:notice] [pid 12840:tid 1424] AH00364: Child: All worker threads have exited.
+[Sun Jul 18 21:11:43.260512 2021] [mpm_winnt:notice] [pid 2064:tid 756] AH00430: Parent: Child process 12840 exited successfully.
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 21:13:43.945683 2021] [mpm_winnt:notice] [pid 6924:tid 736] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Jul 18 21:13:43.945683 2021] [mpm_winnt:notice] [pid 6924:tid 736] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Jul 18 21:13:43.945683 2021] [core:notice] [pid 6924:tid 736] AH00094: Command line: 'D:\\ww\\apache\\bin\\httpd.exe -d D:/ww/apache'
+[Sun Jul 18 21:13:43.947684 2021] [mpm_winnt:notice] [pid 6924:tid 736] AH00418: Parent: Created child process 3728
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Jul 18 21:13:44.821411 2021] [mpm_winnt:notice] [pid 3728:tid 1424] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 18 21:13:48.083668 2021] [mpm_winnt:notice] [pid 6924:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 18 21:13:50.100540 2021] [mpm_winnt:notice] [pid 3728:tid 1424] AH00364: Child: All worker threads have exited.
+[Sun Jul 18 21:13:50.122603 2021] [mpm_winnt:notice] [pid 6924:tid 736] AH00430: Parent: Child process 3728 exited successfully.
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.aas.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.ddd.com] does not exist
+[Sun Jul 18 21:44:35.861446 2021] [mpm_winnt:notice] [pid 10828:tid 736] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Jul 18 21:44:35.862445 2021] [mpm_winnt:notice] [pid 10828:tid 736] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Jul 18 21:44:35.862445 2021] [core:notice] [pid 10828:tid 736] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Sun Jul 18 21:44:35.863445 2021] [mpm_winnt:notice] [pid 10828:tid 736] AH00418: Parent: Created child process 10568
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.aas.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.ddd.com] does not exist
+AH00112: Warning: DocumentRoot [D:/pbwamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.aas.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/ww/www/www.ddd.com] does not exist
+[Sun Jul 18 21:44:36.741998 2021] [mpm_winnt:notice] [pid 10568:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 18 21:47:18.046008 2021] [mpm_winnt:notice] [pid 10828:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 18 21:47:20.059419 2021] [mpm_winnt:notice] [pid 10568:tid 1440] AH00364: Child: All worker threads have exited.
+[Sun Jul 18 21:47:21.735824 2021] [mpm_winnt:notice] [pid 10828:tid 736] AH00430: Parent: Child process 10568 exited successfully.
+[Sun Jul 18 21:47:29.979858 2021] [mpm_winnt:notice] [pid 14440:tid 744] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Jul 18 21:47:29.979858 2021] [mpm_winnt:notice] [pid 14440:tid 744] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Jul 18 21:47:29.979858 2021] [core:notice] [pid 14440:tid 744] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Sun Jul 18 21:47:29.980858 2021] [mpm_winnt:notice] [pid 14440:tid 744] AH00418: Parent: Created child process 9808
+[Sun Jul 18 21:47:30.686017 2021] [mpm_winnt:notice] [pid 9808:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 19 09:31:38.325579 2021] [mpm_winnt:notice] [pid 14440:tid 744] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 19 09:31:40.359080 2021] [mpm_winnt:notice] [pid 9808:tid 1428] AH00364: Child: All worker threads have exited.
+[Mon Jul 19 09:31:40.765011 2021] [mpm_winnt:notice] [pid 14440:tid 744] AH00430: Parent: Child process 9808 exited successfully.
+[Mon Jul 19 09:32:17.854243 2021] [mpm_winnt:notice] [pid 3600:tid 760] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Mon Jul 19 09:32:17.854243 2021] [mpm_winnt:notice] [pid 3600:tid 760] AH00456: Server built: Apr 23 2021 08:21:27
+[Mon Jul 19 09:32:17.854243 2021] [core:notice] [pid 3600:tid 760] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Mon Jul 19 09:32:17.854243 2021] [mpm_winnt:notice] [pid 3600:tid 760] AH00418: Parent: Created child process 9380
+[Mon Jul 19 09:32:19.248864 2021] [mpm_winnt:notice] [pid 9380:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 19 09:46:32.630206 2021] [mpm_winnt:notice] [pid 3600:tid 760] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 19 09:46:34.654189 2021] [mpm_winnt:notice] [pid 9380:tid 1428] AH00364: Child: All worker threads have exited.
+[Mon Jul 19 09:46:34.691427 2021] [mpm_winnt:notice] [pid 3600:tid 760] AH00430: Parent: Child process 9380 exited successfully.
+[Mon Jul 19 11:45:41.895860 2021] [mpm_winnt:notice] [pid 16364:tid 744] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Mon Jul 19 11:45:41.895860 2021] [mpm_winnt:notice] [pid 16364:tid 744] AH00456: Server built: Apr 23 2021 08:21:27
+[Mon Jul 19 11:45:41.895860 2021] [core:notice] [pid 16364:tid 744] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Mon Jul 19 11:45:41.897860 2021] [mpm_winnt:notice] [pid 16364:tid 744] AH00418: Parent: Created child process 9896
+[Mon Jul 19 11:45:42.856739 2021] [mpm_winnt:notice] [pid 9896:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 19 11:45:45.687166 2021] [mpm_winnt:notice] [pid 16364:tid 744] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 19 11:45:47.708170 2021] [mpm_winnt:notice] [pid 9896:tid 1428] AH00364: Child: All worker threads have exited.
+[Mon Jul 19 11:45:47.745558 2021] [mpm_winnt:notice] [pid 16364:tid 744] AH00430: Parent: Child process 9896 exited successfully.
+[Mon Jul 19 11:49:02.425049 2021] [mpm_winnt:notice] [pid 8568:tid 724] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Mon Jul 19 11:49:02.425049 2021] [mpm_winnt:notice] [pid 8568:tid 724] AH00456: Server built: Apr 23 2021 08:21:27
+[Mon Jul 19 11:49:02.425049 2021] [core:notice] [pid 8568:tid 724] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Mon Jul 19 11:49:02.427049 2021] [mpm_winnt:notice] [pid 8568:tid 724] AH00418: Parent: Created child process 16024
+[Mon Jul 19 11:49:03.349248 2021] [mpm_winnt:notice] [pid 16024:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 19 11:49:06.511162 2021] [mpm_winnt:notice] [pid 8568:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 19 11:49:08.520056 2021] [mpm_winnt:notice] [pid 16024:tid 1428] AH00364: Child: All worker threads have exited.
+[Mon Jul 19 11:49:08.556021 2021] [mpm_winnt:notice] [pid 8568:tid 724] AH00430: Parent: Child process 16024 exited successfully.
+[Mon Jul 19 11:49:12.328471 2021] [mpm_winnt:notice] [pid 4632:tid 724] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Mon Jul 19 11:49:12.328471 2021] [mpm_winnt:notice] [pid 4632:tid 724] AH00456: Server built: Apr 23 2021 08:21:27
+[Mon Jul 19 11:49:12.328471 2021] [core:notice] [pid 4632:tid 724] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Mon Jul 19 11:49:12.330472 2021] [mpm_winnt:notice] [pid 4632:tid 724] AH00418: Parent: Created child process 4496
+[Mon Jul 19 11:49:13.180780 2021] [mpm_winnt:notice] [pid 4496:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 19 12:15:10.460149 2021] [mpm_winnt:notice] [pid 4632:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 19 12:15:12.472302 2021] [mpm_winnt:notice] [pid 4496:tid 1428] AH00364: Child: All worker threads have exited.
+[Mon Jul 19 12:15:12.509371 2021] [mpm_winnt:notice] [pid 4632:tid 724] AH00430: Parent: Child process 4496 exited successfully.
+[Mon Jul 19 12:15:30.600511 2021] [mpm_winnt:notice] [pid 11780:tid 676] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Mon Jul 19 12:15:30.600511 2021] [mpm_winnt:notice] [pid 11780:tid 676] AH00456: Server built: Apr 23 2021 08:21:27
+[Mon Jul 19 12:15:30.600511 2021] [core:notice] [pid 11780:tid 676] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Mon Jul 19 12:15:30.602512 2021] [mpm_winnt:notice] [pid 11780:tid 676] AH00418: Parent: Created child process 13524
+[Mon Jul 19 12:15:31.369370 2021] [mpm_winnt:notice] [pid 13524:tid 1464] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 19 12:15:34.777980 2021] [mpm_winnt:notice] [pid 11780:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 19 12:15:36.792986 2021] [mpm_winnt:notice] [pid 13524:tid 1464] AH00364: Child: All worker threads have exited.
+[Mon Jul 19 12:15:36.814770 2021] [mpm_winnt:notice] [pid 11780:tid 676] AH00430: Parent: Child process 13524 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Mon Jul 19 23:05:24.452590 2021] [mpm_winnt:notice] [pid 5828:tid 868] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Mon Jul 19 23:05:24.452590 2021] [mpm_winnt:notice] [pid 5828:tid 868] AH00456: Server built: Apr 23 2021 08:21:27
+[Mon Jul 19 23:05:24.452590 2021] [core:notice] [pid 5828:tid 868] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Mon Jul 19 23:05:24.455591 2021] [mpm_winnt:notice] [pid 5828:tid 868] AH00418: Parent: Created child process 6548
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Mon Jul 19 23:05:25.007700 2021] [mpm_winnt:notice] [pid 6548:tid 1524] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 22 08:43:38.287954 2021] [mpm_winnt:notice] [pid 5828:tid 868] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 22 08:43:40.319316 2021] [mpm_winnt:notice] [pid 6548:tid 1524] AH00364: Child: All worker threads have exited.
+[Thu Jul 22 08:43:40.694344 2021] [mpm_winnt:notice] [pid 5828:tid 868] AH00430: Parent: Child process 6548 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Thu Jul 22 08:44:17.095837 2021] [mpm_winnt:notice] [pid 4320:tid 1012] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Jul 22 08:44:17.095853 2021] [mpm_winnt:notice] [pid 4320:tid 1012] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Jul 22 08:44:17.095853 2021] [core:notice] [pid 4320:tid 1012] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Jul 22 08:44:17.095853 2021] [mpm_winnt:notice] [pid 4320:tid 1012] AH00418: Parent: Created child process 9800
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Thu Jul 22 08:44:18.240056 2021] [mpm_winnt:notice] [pid 9800:tid 1528] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 22 20:45:17.200245 2021] [mpm_winnt:notice] [pid 4320:tid 1012] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 22 20:45:19.247993 2021] [mpm_winnt:notice] [pid 9800:tid 1528] AH00364: Child: All worker threads have exited.
+[Thu Jul 22 20:45:19.654088 2021] [mpm_winnt:notice] [pid 4320:tid 1012] AH00430: Parent: Child process 9800 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Thu Jul 22 20:45:55.368213 2021] [mpm_winnt:notice] [pid 4808:tid 928] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Jul 22 20:45:55.368213 2021] [mpm_winnt:notice] [pid 4808:tid 928] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Jul 22 20:45:55.368213 2021] [core:notice] [pid 4808:tid 928] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Jul 22 20:45:55.370237 2021] [mpm_winnt:notice] [pid 4808:tid 928] AH00418: Parent: Created child process 7576
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Thu Jul 22 20:45:56.206353 2021] [mpm_winnt:notice] [pid 7576:tid 1528] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 22 21:35:39.696043 2021] [mpm_winnt:notice] [pid 4808:tid 928] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 22 21:35:41.727422 2021] [mpm_winnt:notice] [pid 7576:tid 1528] AH00364: Child: All worker threads have exited.
+[Thu Jul 22 21:35:42.118056 2021] [mpm_winnt:notice] [pid 4808:tid 928] AH00430: Parent: Child process 7576 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Thu Jul 22 21:36:19.164919 2021] [mpm_winnt:notice] [pid 4924:tid 804] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Jul 22 21:36:19.165921 2021] [mpm_winnt:notice] [pid 4924:tid 804] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Jul 22 21:36:19.165921 2021] [core:notice] [pid 4924:tid 804] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Jul 22 21:36:19.169921 2021] [mpm_winnt:notice] [pid 4924:tid 804] AH00418: Parent: Created child process 10080
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.sds.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.aa.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.vs.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.b.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.c.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.d.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.f.com] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.abc.com] does not exist
+[Thu Jul 22 21:36:20.963346 2021] [mpm_winnt:notice] [pid 10080:tid 1528] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 22 22:55:15.413059 2021] [mpm_winnt:notice] [pid 4924:tid 804] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 22 22:55:26.905193 2021] [mpm_winnt:notice] [pid 10080:tid 1528] AH00364: Child: All worker threads have exited.
+[Thu Jul 22 22:55:28.910313 2021] [mpm_winnt:notice] [pid 4924:tid 804] AH00430: Parent: Child process 10080 exited successfully.
+[Thu Jul 22 22:56:18.222602 2021] [mpm_winnt:notice] [pid 12920:tid 848] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Jul 22 22:56:18.222602 2021] [mpm_winnt:notice] [pid 12920:tid 848] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Jul 22 22:56:18.222602 2021] [core:notice] [pid 12920:tid 848] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Jul 22 22:56:18.224605 2021] [mpm_winnt:notice] [pid 12920:tid 848] AH00418: Parent: Created child process 9616
+[Thu Jul 22 22:56:18.673722 2021] [mpm_winnt:notice] [pid 9616:tid 1500] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 22 23:00:49.675607 2021] [mpm_winnt:notice] [pid 12920:tid 848] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 22 23:00:51.717795 2021] [mpm_winnt:notice] [pid 9616:tid 1500] AH00364: Child: All worker threads have exited.
+[Thu Jul 22 23:00:52.012493 2021] [mpm_winnt:notice] [pid 12920:tid 848] AH00430: Parent: Child process 9616 exited successfully.
+[Thu Jul 22 23:01:29.043711 2021] [mpm_winnt:notice] [pid 4808:tid 828] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Jul 22 23:01:29.043711 2021] [mpm_winnt:notice] [pid 4808:tid 828] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Jul 22 23:01:29.043711 2021] [core:notice] [pid 4808:tid 828] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Jul 22 23:01:29.046711 2021] [mpm_winnt:notice] [pid 4808:tid 828] AH00418: Parent: Created child process 9844
+[Thu Jul 22 23:01:31.064359 2021] [mpm_winnt:notice] [pid 9844:tid 1500] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 22 23:02:32.482649 2021] [mpm_winnt:notice] [pid 4808:tid 828] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 22 23:02:34.484114 2021] [mpm_winnt:notice] [pid 9844:tid 1500] AH00364: Child: All worker threads have exited.
+[Thu Jul 22 23:02:34.516102 2021] [mpm_winnt:notice] [pid 4808:tid 828] AH00430: Parent: Child process 9844 exited successfully.
+[Sat Jul 24 06:08:17.450713 2021] [mpm_winnt:notice] [pid 12356:tid 796] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sat Jul 24 06:08:17.450713 2021] [mpm_winnt:notice] [pid 12356:tid 796] AH00456: Server built: Apr 23 2021 08:21:27
+[Sat Jul 24 06:08:17.450713 2021] [core:notice] [pid 12356:tid 796] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Sat Jul 24 06:08:17.453702 2021] [mpm_winnt:notice] [pid 12356:tid 796] AH00418: Parent: Created child process 2152
+[Sat Jul 24 06:08:17.941810 2021] [mpm_winnt:notice] [pid 2152:tid 1500] AH00354: Child: Starting 64 worker threads.
+[Wed Jul 28 18:30:08.157783 2021] [mpm_winnt:notice] [pid 12356:tid 796] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jul 28 18:30:10.189150 2021] [mpm_winnt:notice] [pid 2152:tid 1500] AH00364: Child: All worker threads have exited.
+[Wed Jul 28 18:30:10.532900 2021] [mpm_winnt:notice] [pid 12356:tid 796] AH00430: Parent: Child process 2152 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Sep 09 22:26:24.053472 2021] [mpm_winnt:notice] [pid 12596:tid 796] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Sep 09 22:26:24.053472 2021] [mpm_winnt:notice] [pid 12596:tid 796] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Sep 09 22:26:24.053472 2021] [core:notice] [pid 12596:tid 796] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Sep 09 22:26:24.055472 2021] [mpm_winnt:notice] [pid 12596:tid 796] AH00418: Parent: Created child process 12444
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Sep 09 22:26:24.398543 2021] [mpm_winnt:notice] [pid 12444:tid 1504] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 09 22:26:29.133665 2021] [mpm_winnt:notice] [pid 12596:tid 796] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Sep 09 22:26:31.134300 2021] [mpm_winnt:notice] [pid 12444:tid 1504] AH00364: Child: All worker threads have exited.
+[Thu Sep 09 22:26:31.155287 2021] [mpm_winnt:notice] [pid 12596:tid 796] AH00430: Parent: Child process 12444 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Sep 09 22:26:33.997392 2021] [mpm_winnt:notice] [pid 4572:tid 824] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Sep 09 22:26:33.997392 2021] [mpm_winnt:notice] [pid 4572:tid 824] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Sep 09 22:26:33.997392 2021] [core:notice] [pid 4572:tid 824] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Sep 09 22:26:33.999400 2021] [mpm_winnt:notice] [pid 4572:tid 824] AH00418: Parent: Created child process 13120
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Sep 09 22:26:34.320485 2021] [mpm_winnt:notice] [pid 13120:tid 1504] AH00354: Child: Starting 64 worker threads.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Nov 25 19:15:17.812960 2021] [core:warn] [pid 12492:tid 624] AH00098: pid file D:/wamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 25 19:15:17.859839 2021] [mpm_winnt:notice] [pid 12492:tid 624] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Nov 25 19:15:17.859839 2021] [mpm_winnt:notice] [pid 12492:tid 624] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Nov 25 19:15:17.859839 2021] [core:notice] [pid 12492:tid 624] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Nov 25 19:15:17.859839 2021] [mpm_winnt:notice] [pid 12492:tid 624] AH00418: Parent: Created child process 13596
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Nov 25 19:15:18.938198 2021] [mpm_winnt:notice] [pid 13596:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 25 19:15:39.080089 2021] [mpm_winnt:notice] [pid 12492:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 25 19:15:41.097034 2021] [mpm_winnt:notice] [pid 13596:tid 1440] AH00364: Child: All worker threads have exited.
+[Thu Nov 25 19:15:41.112882 2021] [mpm_winnt:notice] [pid 12492:tid 624] AH00430: Parent: Child process 13596 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Nov 25 19:16:17.511629 2021] [mpm_winnt:notice] [pid 4324:tid 892] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Nov 25 19:16:17.511629 2021] [mpm_winnt:notice] [pid 4324:tid 892] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Nov 25 19:16:17.511629 2021] [core:notice] [pid 4324:tid 892] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Nov 25 19:16:17.511629 2021] [mpm_winnt:notice] [pid 4324:tid 892] AH00418: Parent: Created child process 6504
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Nov 25 19:16:19.533164 2021] [mpm_winnt:notice] [pid 6504:tid 1452] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 25 19:47:11.841084 2021] [mpm_winnt:notice] [pid 4324:tid 892] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 25 19:47:13.874323 2021] [mpm_winnt:notice] [pid 6504:tid 1452] AH00364: Child: All worker threads have exited.
+[Thu Nov 25 19:47:14.312139 2021] [mpm_winnt:notice] [pid 4324:tid 892] AH00430: Parent: Child process 6504 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Nov 25 19:47:51.311468 2021] [mpm_winnt:notice] [pid 4320:tid 792] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Thu Nov 25 19:47:51.311468 2021] [mpm_winnt:notice] [pid 4320:tid 792] AH00456: Server built: Apr 23 2021 08:21:27
+[Thu Nov 25 19:47:51.311468 2021] [core:notice] [pid 4320:tid 792] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Thu Nov 25 19:47:51.311468 2021] [mpm_winnt:notice] [pid 4320:tid 792] AH00418: Parent: Created child process 8708
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Thu Nov 25 19:47:53.188714 2021] [mpm_winnt:notice] [pid 8708:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 27 21:40:47.228803 2021] [mpm_winnt:notice] [pid 4320:tid 792] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Nov 27 21:40:49.247120 2021] [mpm_winnt:notice] [pid 8708:tid 1440] AH00364: Child: All worker threads have exited.
+[Sat Nov 27 21:40:49.731547 2021] [mpm_winnt:notice] [pid 4320:tid 792] AH00430: Parent: Child process 8708 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Sat Nov 27 21:41:24.928833 2021] [mpm_winnt:notice] [pid 4344:tid 420] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sat Nov 27 21:41:24.928833 2021] [mpm_winnt:notice] [pid 4344:tid 420] AH00456: Server built: Apr 23 2021 08:21:27
+[Sat Nov 27 21:41:24.928833 2021] [core:notice] [pid 4344:tid 420] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Sat Nov 27 21:41:24.928833 2021] [mpm_winnt:notice] [pid 4344:tid 420] AH00418: Parent: Created child process 6576
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Sat Nov 27 21:41:26.598656 2021] [mpm_winnt:notice] [pid 6576:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 27 23:54:36.396449 2021] [mpm_winnt:notice] [pid 4344:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Nov 27 23:54:38.412885 2021] [mpm_winnt:notice] [pid 6576:tid 1440] AH00364: Child: All worker threads have exited.
+[Sat Nov 27 23:54:38.444246 2021] [mpm_winnt:notice] [pid 4344:tid 420] AH00430: Parent: Child process 6576 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Sat Nov 27 23:55:15.265011 2021] [mpm_winnt:notice] [pid 4268:tid 720] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sat Nov 27 23:55:15.265011 2021] [mpm_winnt:notice] [pid 4268:tid 720] AH00456: Server built: Apr 23 2021 08:21:27
+[Sat Nov 27 23:55:15.265011 2021] [core:notice] [pid 4268:tid 720] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Sat Nov 27 23:55:15.274888 2021] [mpm_winnt:notice] [pid 4268:tid 720] AH00418: Parent: Created child process 6616
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Sat Nov 27 23:55:16.987209 2021] [mpm_winnt:notice] [pid 6616:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 29 21:13:55.773095 2021] [mpm_winnt:notice] [pid 4268:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 29 21:13:57.790957 2021] [mpm_winnt:notice] [pid 6616:tid 1440] AH00364: Child: All worker threads have exited.
+[Mon Nov 29 21:13:58.275661 2021] [mpm_winnt:notice] [pid 4268:tid 720] AH00430: Parent: Child process 6616 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Mon Nov 29 21:14:35.153329 2021] [mpm_winnt:notice] [pid 4320:tid 684] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Mon Nov 29 21:14:35.153329 2021] [mpm_winnt:notice] [pid 4320:tid 684] AH00456: Server built: Apr 23 2021 08:21:27
+[Mon Nov 29 21:14:35.153329 2021] [core:notice] [pid 4320:tid 684] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Mon Nov 29 21:14:35.163481 2021] [mpm_winnt:notice] [pid 4320:tid 684] AH00418: Parent: Created child process 8744
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Mon Nov 29 21:14:36.935716 2021] [mpm_winnt:notice] [pid 8744:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 30 18:09:28.904495 2021] [mpm_winnt:notice] [pid 4320:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 30 18:09:30.921883 2021] [mpm_winnt:notice] [pid 8744:tid 1440] AH00364: Child: All worker threads have exited.
+[Tue Nov 30 18:09:30.984115 2021] [mpm_winnt:notice] [pid 4320:tid 684] AH00430: Parent: Child process 8744 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 18:10:10.948693 2021] [mpm_winnt:notice] [pid 4792:tid 736] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Nov 30 18:10:10.948693 2021] [mpm_winnt:notice] [pid 4792:tid 736] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Nov 30 18:10:10.948693 2021] [core:notice] [pid 4792:tid 736] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Nov 30 18:10:10.948693 2021] [mpm_winnt:notice] [pid 4792:tid 736] AH00418: Parent: Created child process 9344
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 18:10:13.855690 2021] [mpm_winnt:notice] [pid 9344:tid 1444] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 30 19:07:50.369168 2021] [mpm_winnt:notice] [pid 4792:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 30 19:07:52.401901 2021] [mpm_winnt:notice] [pid 9344:tid 1444] AH00364: Child: All worker threads have exited.
+[Tue Nov 30 19:07:52.433511 2021] [mpm_winnt:notice] [pid 4792:tid 736] AH00430: Parent: Child process 9344 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 19:08:26.199827 2021] [mpm_winnt:notice] [pid 4276:tid 756] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Nov 30 19:08:26.199827 2021] [mpm_winnt:notice] [pid 4276:tid 756] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Nov 30 19:08:26.199827 2021] [core:notice] [pid 4276:tid 756] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Nov 30 19:08:26.199827 2021] [mpm_winnt:notice] [pid 4276:tid 756] AH00418: Parent: Created child process 9400
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 19:08:27.842561 2021] [mpm_winnt:notice] [pid 9400:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 30 20:42:23.888979 2021] [mpm_winnt:notice] [pid 4276:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 30 20:42:25.907143 2021] [mpm_winnt:notice] [pid 9400:tid 1440] AH00364: Child: All worker threads have exited.
+[Tue Nov 30 20:42:25.938519 2021] [mpm_winnt:notice] [pid 4276:tid 756] AH00430: Parent: Child process 9400 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 20:43:04.188446 2021] [mpm_winnt:notice] [pid 4184:tid 944] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Nov 30 20:43:04.188446 2021] [mpm_winnt:notice] [pid 4184:tid 944] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Nov 30 20:43:04.188446 2021] [core:notice] [pid 4184:tid 944] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Nov 30 20:43:04.193747 2021] [mpm_winnt:notice] [pid 4184:tid 944] AH00418: Parent: Created child process 7604
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 20:43:05.861620 2021] [mpm_winnt:notice] [pid 7604:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 30 21:06:45.658275 2021] [mpm_winnt:notice] [pid 4184:tid 944] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 30 21:06:47.692035 2021] [mpm_winnt:notice] [pid 7604:tid 1440] AH00364: Child: All worker threads have exited.
+[Tue Nov 30 21:06:47.723667 2021] [mpm_winnt:notice] [pid 4184:tid 944] AH00430: Parent: Child process 7604 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 21:07:25.125421 2021] [mpm_winnt:notice] [pid 4188:tid 800] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Nov 30 21:07:25.125421 2021] [mpm_winnt:notice] [pid 4188:tid 800] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Nov 30 21:07:25.125421 2021] [core:notice] [pid 4188:tid 800] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Nov 30 21:07:25.125421 2021] [mpm_winnt:notice] [pid 4188:tid 800] AH00418: Parent: Created child process 9056
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 21:07:27.336402 2021] [mpm_winnt:notice] [pid 9056:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 30 22:20:43.173832 2021] [mpm_winnt:notice] [pid 4188:tid 800] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 30 22:20:45.190701 2021] [mpm_winnt:notice] [pid 9056:tid 1440] AH00364: Child: All worker threads have exited.
+[Tue Nov 30 22:20:45.221781 2021] [mpm_winnt:notice] [pid 4188:tid 800] AH00430: Parent: Child process 9056 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 22:21:23.798776 2021] [mpm_winnt:notice] [pid 4256:tid 952] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Nov 30 22:21:23.798776 2021] [mpm_winnt:notice] [pid 4256:tid 952] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Nov 30 22:21:23.798776 2021] [core:notice] [pid 4256:tid 952] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Nov 30 22:21:23.798776 2021] [mpm_winnt:notice] [pid 4256:tid 952] AH00418: Parent: Created child process 8860
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Nov 30 22:21:25.827148 2021] [mpm_winnt:notice] [pid 8860:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 03 19:12:10.960719 2021] [mpm_winnt:notice] [pid 4256:tid 952] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 03 19:12:12.977333 2021] [mpm_winnt:notice] [pid 8860:tid 1440] AH00364: Child: All worker threads have exited.
+[Fri Dec 03 19:12:13.383908 2021] [mpm_winnt:notice] [pid 4256:tid 952] AH00430: Parent: Child process 8860 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 19:12:47.289391 2021] [mpm_winnt:notice] [pid 4360:tid 776] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 03 19:12:47.289391 2021] [mpm_winnt:notice] [pid 4360:tid 776] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 03 19:12:47.289391 2021] [core:notice] [pid 4360:tid 776] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Fri Dec 03 19:12:47.289391 2021] [mpm_winnt:notice] [pid 4360:tid 776] AH00418: Parent: Created child process 9020
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 19:12:49.273602 2021] [mpm_winnt:notice] [pid 9020:tid 1444] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 03 19:42:10.900633 2021] [mpm_winnt:notice] [pid 4360:tid 776] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 03 19:42:12.947652 2021] [mpm_winnt:notice] [pid 9020:tid 1444] AH00364: Child: All worker threads have exited.
+[Fri Dec 03 19:42:12.979330 2021] [mpm_winnt:notice] [pid 4360:tid 776] AH00430: Parent: Child process 9020 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 19:42:45.586935 2021] [mpm_winnt:notice] [pid 4320:tid 712] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 03 19:42:45.586935 2021] [mpm_winnt:notice] [pid 4320:tid 712] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 03 19:42:45.586935 2021] [core:notice] [pid 4320:tid 712] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Fri Dec 03 19:42:45.597142 2021] [mpm_winnt:notice] [pid 4320:tid 712] AH00418: Parent: Created child process 7600
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 19:42:46.426997 2021] [mpm_winnt:notice] [pid 7600:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 03 19:46:57.045660 2021] [mpm_winnt:notice] [pid 4320:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 03 19:46:59.062370 2021] [mpm_winnt:notice] [pid 7600:tid 1440] AH00364: Child: All worker threads have exited.
+[Fri Dec 03 19:46:59.093429 2021] [mpm_winnt:notice] [pid 4320:tid 712] AH00430: Parent: Child process 7600 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 19:47:31.738715 2021] [mpm_winnt:notice] [pid 4524:tid 848] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 03 19:47:31.738715 2021] [mpm_winnt:notice] [pid 4524:tid 848] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 03 19:47:31.738715 2021] [core:notice] [pid 4524:tid 848] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Fri Dec 03 19:47:31.738715 2021] [mpm_winnt:notice] [pid 4524:tid 848] AH00418: Parent: Created child process 7968
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 19:47:32.468430 2021] [mpm_winnt:notice] [pid 7968:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 03 20:19:37.969164 2021] [mpm_winnt:notice] [pid 4524:tid 848] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 03 20:19:40.001309 2021] [mpm_winnt:notice] [pid 7968:tid 1440] AH00364: Child: All worker threads have exited.
+[Fri Dec 03 20:19:40.454776 2021] [mpm_winnt:notice] [pid 4524:tid 848] AH00430: Parent: Child process 7968 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 20:20:11.714323 2021] [mpm_winnt:notice] [pid 4356:tid 728] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 03 20:20:11.714323 2021] [mpm_winnt:notice] [pid 4356:tid 728] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 03 20:20:11.714323 2021] [core:notice] [pid 4356:tid 728] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Fri Dec 03 20:20:11.714323 2021] [mpm_winnt:notice] [pid 4356:tid 728] AH00418: Parent: Created child process 7736
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 20:20:12.494722 2021] [mpm_winnt:notice] [pid 7736:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 03 20:21:59.586036 2021] [mpm_winnt:notice] [pid 4356:tid 728] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 03 20:22:01.603039 2021] [mpm_winnt:notice] [pid 7736:tid 1440] AH00364: Child: All worker threads have exited.
+[Fri Dec 03 20:22:01.634720 2021] [mpm_winnt:notice] [pid 4356:tid 728] AH00430: Parent: Child process 7736 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 20:22:34.848652 2021] [mpm_winnt:notice] [pid 4516:tid 632] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 03 20:22:34.848652 2021] [mpm_winnt:notice] [pid 4516:tid 632] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 03 20:22:34.848652 2021] [core:notice] [pid 4516:tid 632] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Fri Dec 03 20:22:34.848652 2021] [mpm_winnt:notice] [pid 4516:tid 632] AH00418: Parent: Created child process 8000
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Fri Dec 03 20:22:35.788507 2021] [mpm_winnt:notice] [pid 8000:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Sat Dec 04 18:13:30.134463 2021] [mpm_winnt:notice] [pid 4516:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Dec 04 18:13:32.150579 2021] [mpm_winnt:notice] [pid 8000:tid 1440] AH00364: Child: All worker threads have exited.
+[Sat Dec 04 18:13:32.182203 2021] [mpm_winnt:notice] [pid 4516:tid 632] AH00430: Parent: Child process 8000 exited successfully.
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Sat Dec 04 18:14:05.662592 2021] [mpm_winnt:notice] [pid 4600:tid 740] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sat Dec 04 18:14:05.662592 2021] [mpm_winnt:notice] [pid 4600:tid 740] AH00456: Server built: Apr 23 2021 08:21:27
+[Sat Dec 04 18:14:05.662592 2021] [core:notice] [pid 4600:tid 740] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Sat Dec 04 18:14:05.667615 2021] [mpm_winnt:notice] [pid 4600:tid 740] AH00418: Parent: Created child process 9812
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Sat Dec 04 18:14:08.347113 2021] [mpm_winnt:notice] [pid 9812:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Sat Dec 04 18:28:42.437499 2021] [mpm_winnt:notice] [pid 4600:tid 740] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Dec 04 18:28:44.455251 2021] [mpm_winnt:notice] [pid 9812:tid 1440] AH00364: Child: All worker threads have exited.
+[Sat Dec 04 18:28:44.486688 2021] [mpm_winnt:notice] [pid 4600:tid 740] AH00430: Parent: Child process 9812 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Dec 14 20:23:03.084493 2021] [mpm_winnt:notice] [pid 11328:tid 720] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Dec 14 20:23:03.084493 2021] [mpm_winnt:notice] [pid 11328:tid 720] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Dec 14 20:23:03.084493 2021] [core:notice] [pid 11328:tid 720] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Dec 14 20:23:03.084493 2021] [mpm_winnt:notice] [pid 11328:tid 720] AH00418: Parent: Created child process 14252
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Dec 14 20:23:03.319122 2021] [mpm_winnt:notice] [pid 14252:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 14 20:23:26.346456 2021] [mpm_winnt:notice] [pid 11328:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 14 20:23:28.363073 2021] [mpm_winnt:notice] [pid 14252:tid 1440] AH00364: Child: All worker threads have exited.
+[Tue Dec 14 20:23:28.394303 2021] [mpm_winnt:notice] [pid 11328:tid 720] AH00430: Parent: Child process 14252 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Dec 14 20:23:58.740502 2021] [mpm_winnt:notice] [pid 4040:tid 924] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Dec 14 20:23:58.740502 2021] [mpm_winnt:notice] [pid 4040:tid 924] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Dec 14 20:23:58.740502 2021] [core:notice] [pid 4040:tid 924] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Dec 14 20:23:58.740502 2021] [mpm_winnt:notice] [pid 4040:tid 924] AH00418: Parent: Created child process 3972
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Dec 14 20:23:59.079644 2021] [mpm_winnt:notice] [pid 3972:tid 1440] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 14 20:59:48.723599 2021] [mpm_winnt:notice] [pid 4040:tid 924] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 14 20:59:50.740457 2021] [mpm_winnt:notice] [pid 3972:tid 1440] AH00364: Child: All worker threads have exited.
+[Tue Dec 14 20:59:53.399189 2021] [mpm_winnt:notice] [pid 4040:tid 924] AH00430: Parent: Child process 3972 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Dec 14 21:00:40.289959 2021] [mpm_winnt:notice] [pid 8612:tid 752] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Tue Dec 14 21:00:40.289959 2021] [mpm_winnt:notice] [pid 8612:tid 752] AH00456: Server built: Apr 23 2021 08:21:27
+[Tue Dec 14 21:00:40.289959 2021] [core:notice] [pid 8612:tid 752] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Tue Dec 14 21:00:40.289959 2021] [mpm_winnt:notice] [pid 8612:tid 752] AH00418: Parent: Created child process 9920
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+[Tue Dec 14 21:00:40.524336 2021] [mpm_winnt:notice] [pid 9920:tid 1444] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 14 21:31:26.800921 2021] [mpm_winnt:notice] [pid 8612:tid 752] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 14 21:31:28.818316 2021] [mpm_winnt:notice] [pid 9920:tid 1444] AH00364: Child: All worker threads have exited.
+[Tue Dec 14 21:31:29.099453 2021] [mpm_winnt:notice] [pid 8612:tid 752] AH00430: Parent: Child process 9920 exited successfully.
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 18:49:53.083662 2021] [mpm_winnt:notice] [pid 10284:tid 596] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 18:49:53.083662 2021] [mpm_winnt:notice] [pid 10284:tid 596] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 18:49:53.083662 2021] [core:notice] [pid 10284:tid 596] AH00094: Command line: 'D:\\wamp\\apache\\bin\\httpd.exe -d D:/wamp/apache'
+[Fri Dec 17 18:49:53.083662 2021] [mpm_winnt:notice] [pid 10284:tid 596] AH00418: Parent: Created child process 2480
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+AH00112: Warning: DocumentRoot [D:/wamp/www/www.php.com] does not exist
+AH00112: Warning: DocumentRoot [D:/1/wamp/www/www.simplephp.net] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 18:49:53.308926 2021] [mpm_winnt:notice] [pid 2480:tid 1448] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 18:50:13.155825 2021] [mpm_winnt:notice] [pid 10284:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 18:50:15.191351 2021] [mpm_winnt:notice] [pid 2480:tid 1448] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 18:50:15.226923 2021] [mpm_winnt:notice] [pid 10284:tid 596] AH00430: Parent: Child process 2480 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 19:16:38.890099 2021] [mpm_winnt:notice] [pid 8296:tid 836] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 19:16:38.890099 2021] [mpm_winnt:notice] [pid 8296:tid 836] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 19:16:38.890099 2021] [core:notice] [pid 8296:tid 836] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 19:16:38.892110 2021] [mpm_winnt:notice] [pid 8296:tid 836] AH00418: Parent: Created child process 9276
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 19:16:39.124017 2021] [mpm_winnt:notice] [pid 9276:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 19:17:01.287370 2021] [mpm_winnt:notice] [pid 8296:tid 836] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 19:17:03.293552 2021] [mpm_winnt:notice] [pid 9276:tid 1428] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 19:17:03.314376 2021] [mpm_winnt:notice] [pid 8296:tid 836] AH00430: Parent: Child process 9276 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 19:17:05.876962 2021] [mpm_winnt:notice] [pid 13704:tid 836] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 19:17:05.876962 2021] [mpm_winnt:notice] [pid 13704:tid 836] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 19:17:05.876962 2021] [core:notice] [pid 13704:tid 836] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 19:17:05.878964 2021] [mpm_winnt:notice] [pid 13704:tid 836] AH00418: Parent: Created child process 11624
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 19:17:06.120306 2021] [mpm_winnt:notice] [pid 11624:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 19:23:39.711096 2021] [mpm_winnt:notice] [pid 13704:tid 836] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 19:23:41.745276 2021] [mpm_winnt:notice] [pid 11624:tid 1428] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 19:23:41.776321 2021] [mpm_winnt:notice] [pid 13704:tid 836] AH00430: Parent: Child process 11624 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 20:11:45.237681 2021] [mpm_winnt:notice] [pid 3784:tid 560] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 20:11:45.237681 2021] [mpm_winnt:notice] [pid 3784:tid 560] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 20:11:45.237681 2021] [core:notice] [pid 3784:tid 560] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 20:11:45.237681 2021] [mpm_winnt:notice] [pid 3784:tid 560] AH00418: Parent: Created child process 1308
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 20:11:45.474457 2021] [mpm_winnt:notice] [pid 1308:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 20:11:49.257393 2021] [mpm_winnt:notice] [pid 3784:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 20:11:51.275261 2021] [mpm_winnt:notice] [pid 1308:tid 1428] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 20:11:51.290877 2021] [mpm_winnt:notice] [pid 3784:tid 560] AH00430: Parent: Child process 1308 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 20:11:55.104692 2021] [mpm_winnt:notice] [pid 2840:tid 720] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 20:11:55.104692 2021] [mpm_winnt:notice] [pid 2840:tid 720] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 20:11:55.104692 2021] [core:notice] [pid 2840:tid 720] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 20:11:55.104692 2021] [mpm_winnt:notice] [pid 2840:tid 720] AH00418: Parent: Created child process 2428
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 20:11:55.323544 2021] [mpm_winnt:notice] [pid 2428:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 20:11:58.418594 2021] [mpm_winnt:notice] [pid 2840:tid 720] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 20:12:00.435813 2021] [mpm_winnt:notice] [pid 2428:tid 1428] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 20:12:00.466858 2021] [mpm_winnt:notice] [pid 2840:tid 720] AH00430: Parent: Child process 2428 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 20:12:13.550576 2021] [mpm_winnt:notice] [pid 2924:tid 728] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 20:12:13.550576 2021] [mpm_winnt:notice] [pid 2924:tid 728] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 20:12:13.550576 2021] [core:notice] [pid 2924:tid 728] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 20:12:13.550576 2021] [mpm_winnt:notice] [pid 2924:tid 728] AH00418: Parent: Created child process 8932
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: ext\\curl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_curl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_mbstring.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: ext\\openssl (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_openssl.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ext\\pdo_mysql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_mysql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_odbc' (tried: ext\\pdo_odbc (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_odbc.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: ext\\pgsql (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pgsql.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'shmop' (tried: ext\\shmop (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_shmop.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Fri Dec 17 20:12:13.785385 2021] [mpm_winnt:notice] [pid 8932:tid 1428] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 20:22:38.461116 2021] [mpm_winnt:notice] [pid 2924:tid 728] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 20:22:40.493608 2021] [mpm_winnt:notice] [pid 8932:tid 1428] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 20:22:40.524657 2021] [mpm_winnt:notice] [pid 2924:tid 728] AH00430: Parent: Child process 8932 exited successfully.
+[Fri Dec 17 20:22:43.134447 2021] [mpm_winnt:notice] [pid 4416:tid 736] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 20:22:43.134447 2021] [mpm_winnt:notice] [pid 4416:tid 736] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 20:22:43.134447 2021] [core:notice] [pid 4416:tid 736] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 20:22:43.134447 2021] [mpm_winnt:notice] [pid 4416:tid 736] AH00418: Parent: Created child process 2128
+[Fri Dec 17 20:22:43.384531 2021] [mpm_winnt:notice] [pid 2128:tid 1432] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 20:33:04.732621 2021] [mpm_winnt:notice] [pid 4416:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 20:33:06.748986 2021] [mpm_winnt:notice] [pid 2128:tid 1432] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 20:33:06.780536 2021] [mpm_winnt:notice] [pid 4416:tid 736] AH00430: Parent: Child process 2128 exited successfully.
+[Fri Dec 17 20:33:37.026259 2021] [mpm_winnt:notice] [pid 3600:tid 876] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 20:33:37.026259 2021] [mpm_winnt:notice] [pid 3600:tid 876] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 20:33:37.026259 2021] [core:notice] [pid 3600:tid 876] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 20:33:37.026259 2021] [mpm_winnt:notice] [pid 3600:tid 876] AH00418: Parent: Created child process 5300
+[Fri Dec 17 20:33:37.495040 2021] [mpm_winnt:notice] [pid 5300:tid 1432] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 20:41:13.855402 2021] [mpm_winnt:notice] [pid 3600:tid 876] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 20:41:15.871545 2021] [mpm_winnt:notice] [pid 5300:tid 1432] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 20:41:15.902591 2021] [mpm_winnt:notice] [pid 3600:tid 876] AH00430: Parent: Child process 5300 exited successfully.
+[Fri Dec 17 20:41:18.170578 2021] [mpm_winnt:notice] [pid 11484:tid 548] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Fri Dec 17 20:41:18.170578 2021] [mpm_winnt:notice] [pid 11484:tid 548] AH00456: Server built: Apr 23 2021 08:21:27
+[Fri Dec 17 20:41:18.170578 2021] [core:notice] [pid 11484:tid 548] AH00094: Command line: 'D:\\phponly\\apache\\bin\\httpd.exe -d D:/phponly/apache'
+[Fri Dec 17 20:41:18.170578 2021] [mpm_winnt:notice] [pid 11484:tid 548] AH00418: Parent: Created child process 11476
+[Fri Dec 17 20:41:18.389440 2021] [mpm_winnt:notice] [pid 11476:tid 1432] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 17 20:41:45.225174 2021] [mpm_winnt:notice] [pid 11484:tid 548] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 17 20:41:47.257273 2021] [mpm_winnt:notice] [pid 11476:tid 1432] AH00364: Child: All worker threads have exited.
+[Fri Dec 17 20:41:49.586556 2021] [mpm_winnt:notice] [pid 11484:tid 548] AH00430: Parent: Child process 11476 exited successfully.
+AH00112: Warning: DocumentRoot [D:/phpOnly/www/localhost] does not exist
+[Sun Apr 16 13:45:44.500837 2023] [mpm_winnt:notice] [pid 3068:tid 752] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 13:45:44.500837 2023] [mpm_winnt:notice] [pid 3068:tid 752] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 13:45:44.500837 2023] [core:notice] [pid 3068:tid 752] AH00094: Command line: 'D:\\Dev\\pb\\phpOnly\\apache\\bin\\httpd.exe -d D:/Dev/pb/phpOnly/apache'
+[Sun Apr 16 13:45:44.500837 2023] [mpm_winnt:notice] [pid 3068:tid 752] AH00418: Parent: Created child process 8720
+AH00112: Warning: DocumentRoot [D:/phpOnly/www/localhost] does not exist
+AH00112: Warning: DocumentRoot [D:/phpOnly/www/localhost] does not exist
+[Sun Apr 16 13:45:44.767184 2023] [mpm_winnt:notice] [pid 8720:tid 1468] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 13:51:28.990793 2023] [mpm_winnt:notice] [pid 3068:tid 752] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 13:51:31.018213 2023] [mpm_winnt:notice] [pid 8720:tid 1468] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 13:51:31.050211 2023] [mpm_winnt:notice] [pid 3068:tid 752] AH00430: Parent: Child process 8720 exited successfully.
+AH00112: Warning: DocumentRoot [D:/phpOnly/www/localhost] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 13:51:34.817449 2023] [mpm_winnt:notice] [pid 10648:tid 788] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 13:51:34.817449 2023] [mpm_winnt:notice] [pid 10648:tid 788] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 13:51:34.817449 2023] [core:notice] [pid 10648:tid 788] AH00094: Command line: 'D:\\Dev\\pb\\phpOnly\\apache\\bin\\httpd.exe -d D:/Dev/pb/phpOnly/apache'
+[Sun Apr 16 13:51:34.817449 2023] [mpm_winnt:notice] [pid 10648:tid 788] AH00418: Parent: Created child process 12584
+AH00112: Warning: DocumentRoot [D:/phpOnly/www/localhost] does not exist
+AH00112: Warning: DocumentRoot [D:/phpOnly/www/localhost] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 13:51:35.052717 2023] [mpm_winnt:notice] [pid 12584:tid 1500] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 13:52:40.402089 2023] [mpm_winnt:notice] [pid 10648:tid 788] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 13:52:42.419333 2023] [mpm_winnt:notice] [pid 12584:tid 1500] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 13:52:42.451811 2023] [mpm_winnt:notice] [pid 10648:tid 788] AH00430: Parent: Child process 12584 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 13:52:45.559392 2023] [mpm_winnt:notice] [pid 9136:tid 784] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 13:52:45.559392 2023] [mpm_winnt:notice] [pid 9136:tid 784] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 13:52:45.559392 2023] [core:notice] [pid 9136:tid 784] AH00094: Command line: 'D:\\Dev\\pb\\phpOnly\\apache\\bin\\httpd.exe -d D:/Dev/pb/phpOnly/apache'
+[Sun Apr 16 13:52:45.559392 2023] [mpm_winnt:notice] [pid 9136:tid 784] AH00418: Parent: Created child process 6520
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 13:52:45.788175 2023] [mpm_winnt:notice] [pid 6520:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 13:53:47.272240 2023] [mpm_winnt:notice] [pid 9136:tid 784] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 13:53:49.301327 2023] [mpm_winnt:notice] [pid 6520:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 13:53:49.337191 2023] [mpm_winnt:notice] [pid 9136:tid 784] AH00430: Parent: Child process 6520 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 13:54:00.804287 2023] [mpm_winnt:notice] [pid 12656:tid 772] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 13:54:00.804287 2023] [mpm_winnt:notice] [pid 12656:tid 772] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 13:54:00.804287 2023] [core:notice] [pid 12656:tid 772] AH00094: Command line: 'D:\\Dev\\pb\\phpOnly\\apache\\bin\\httpd.exe -d D:/Dev/pb/phpOnly/apache'
+[Sun Apr 16 13:54:00.804287 2023] [mpm_winnt:notice] [pid 12656:tid 772] AH00418: Parent: Created child process 16308
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 13:54:01.033147 2023] [mpm_winnt:notice] [pid 16308:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 13:56:12.041184 2023] [mpm_winnt:notice] [pid 12656:tid 772] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 13:56:14.073227 2023] [mpm_winnt:notice] [pid 16308:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 13:56:14.104814 2023] [mpm_winnt:notice] [pid 12656:tid 772] AH00430: Parent: Child process 16308 exited successfully.
+AH00112: Warning: DocumentRoot [D:/Dev/pb/phpOnly/www/localhost] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 14:28:42.531031 2023] [mpm_winnt:notice] [pid 11368:tid 908] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 14:28:42.531031 2023] [mpm_winnt:notice] [pid 11368:tid 908] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 14:28:42.531031 2023] [core:notice] [pid 11368:tid 908] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 14:28:42.531031 2023] [mpm_winnt:notice] [pid 11368:tid 908] AH00418: Parent: Created child process 14904
+AH00112: Warning: DocumentRoot [D:/Dev/pb/phpOnly/www/localhost] does not exist
+AH00112: Warning: DocumentRoot [D:/Dev/pb/phpOnly/www/localhost] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 14:28:42.765450 2023] [mpm_winnt:notice] [pid 14904:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 14:31:39.281390 2023] [autoindex:error] [pid 14904:tid 2084] [client ::1:49866] AH01276: Cannot serve directory D:/Run/phpOnly/www/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Sun Apr 16 14:31:41.707787 2023] [autoindex:error] [pid 14904:tid 2084] [client ::1:49866] AH01276: Cannot serve directory D:/Run/phpOnly/www/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Sun Apr 16 14:33:24.664894 2023] [mpm_winnt:notice] [pid 11368:tid 908] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 14:33:41.416582 2023] [mpm_winnt:notice] [pid 14904:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 14:33:41.447975 2023] [mpm_winnt:notice] [pid 11368:tid 908] AH00430: Parent: Child process 14904 exited successfully.
+AH00112: Warning: DocumentRoot [D:/Dev/pb/phpOnly/www/localhost] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 14:33:50.274451 2023] [mpm_winnt:notice] [pid 12124:tid 768] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 14:33:50.274451 2023] [mpm_winnt:notice] [pid 12124:tid 768] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 14:33:50.274451 2023] [core:notice] [pid 12124:tid 768] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 14:33:50.274451 2023] [mpm_winnt:notice] [pid 12124:tid 768] AH00418: Parent: Created child process 4128
+AH00112: Warning: DocumentRoot [D:/Dev/pb/phpOnly/www/localhost] does not exist
+AH00112: Warning: DocumentRoot [D:/Dev/pb/phpOnly/www/localhost] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 14:33:50.510354 2023] [mpm_winnt:notice] [pid 4128:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:19:55.093802 2023] [mpm_winnt:notice] [pid 12124:tid 768] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:19:57.107391 2023] [mpm_winnt:notice] [pid 4128:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:19:57.187729 2023] [mpm_winnt:notice] [pid 12124:tid 768] AH00430: Parent: Child process 4128 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:20:03.631078 2023] [mpm_winnt:notice] [pid 14584:tid 756] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:20:03.631078 2023] [mpm_winnt:notice] [pid 14584:tid 756] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:20:03.631078 2023] [core:notice] [pid 14584:tid 756] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:20:03.632074 2023] [mpm_winnt:notice] [pid 14584:tid 756] AH00418: Parent: Created child process 14628
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv' (tried: ext\\php_pdo_sqlsrv (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:20:03.869914 2023] [mpm_winnt:notice] [pid 14628:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:21:43.027756 2023] [mpm_winnt:notice] [pid 14584:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:22:13.039678 2023] [mpm_winnt:notice] [pid 14584:tid 756] AH00431: Parent: Forcing termination of child process 14628
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:24:21.123083 2023] [mpm_winnt:notice] [pid 14160:tid 872] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:24:21.123083 2023] [mpm_winnt:notice] [pid 14160:tid 872] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:24:21.123083 2023] [core:notice] [pid 14160:tid 872] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:24:21.124080 2023] [mpm_winnt:notice] [pid 14160:tid 872] AH00418: Parent: Created child process 8364
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:24:21.367598 2023] [mpm_winnt:notice] [pid 8364:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:30:35.544921 2023] [mpm_winnt:notice] [pid 14160:tid 872] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:30:37.556094 2023] [mpm_winnt:notice] [pid 8364:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:30:37.594781 2023] [mpm_winnt:notice] [pid 14160:tid 872] AH00430: Parent: Child process 8364 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:30:40.095619 2023] [mpm_winnt:notice] [pid 5740:tid 788] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:30:40.095619 2023] [mpm_winnt:notice] [pid 5740:tid 788] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:30:40.095619 2023] [core:notice] [pid 5740:tid 788] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:30:40.097613 2023] [mpm_winnt:notice] [pid 5740:tid 788] AH00418: Parent: Created child process 18144
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:30:40.343039 2023] [mpm_winnt:notice] [pid 18144:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:31:22.385952 2023] [mpm_winnt:notice] [pid 5740:tid 788] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:31:24.399690 2023] [mpm_winnt:notice] [pid 18144:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:31:24.442088 2023] [mpm_winnt:notice] [pid 5740:tid 788] AH00430: Parent: Child process 18144 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\\oci8_12c (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_oci8_12c.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\\oci8_19 (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_oci8_19.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\\pdo_firebird (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_firebird.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\\pdo_oci (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_oci.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:31:32.254321 2023] [mpm_winnt:notice] [pid 14072:tid 804] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:31:32.254321 2023] [mpm_winnt:notice] [pid 14072:tid 804] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:31:32.254321 2023] [core:notice] [pid 14072:tid 804] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:31:32.256314 2023] [mpm_winnt:notice] [pid 14072:tid 804] AH00418: Parent: Created child process 11100
+PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\\oci8_12c (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_oci8_12c.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\\oci8_19 (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_oci8_19.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\\pdo_firebird (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_firebird.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\\pdo_oci (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_pdo_oci.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:31:32.519135 2023] [mpm_winnt:notice] [pid 11100:tid 1512] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:32:50.145577 2023] [mpm_winnt:notice] [pid 14072:tid 804] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:33:10.002870 2023] [mpm_winnt:notice] [pid 11100:tid 1512] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:33:10.042596 2023] [mpm_winnt:notice] [pid 14072:tid 804] AH00430: Parent: Child process 11100 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:33:30.813420 2023] [mpm_winnt:notice] [pid 19144:tid 804] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:33:30.813420 2023] [mpm_winnt:notice] [pid 19144:tid 804] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:33:30.813420 2023] [core:notice] [pid 19144:tid 804] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:33:30.814409 2023] [mpm_winnt:notice] [pid 19144:tid 804] AH00418: Parent: Created child process 5832
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:33:31.082524 2023] [mpm_winnt:notice] [pid 5832:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:36:18.014882 2023] [mpm_winnt:notice] [pid 19144:tid 804] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:36:20.021091 2023] [mpm_winnt:notice] [pid 5832:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:36:20.062520 2023] [mpm_winnt:notice] [pid 19144:tid 804] AH00430: Parent: Child process 5832 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:36:22.706285 2023] [mpm_winnt:notice] [pid 8156:tid 908] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:36:22.706285 2023] [mpm_winnt:notice] [pid 8156:tid 908] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:36:22.706285 2023] [core:notice] [pid 8156:tid 908] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:36:22.707282 2023] [mpm_winnt:notice] [pid 8156:tid 908] AH00418: Parent: Created child process 17952
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sqlsrv.dll' (tried: ext\\php_sqlsrv.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_php_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_sqlsrv.dll' (tried: ext\\php_pdo_sqlsrv.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_php_pdo_sqlsrv.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:36:22.962633 2023] [mpm_winnt:notice] [pid 17952:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:46:42.993549 2023] [mpm_winnt:notice] [pid 8156:tid 908] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:46:45.024806 2023] [mpm_winnt:notice] [pid 17952:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:46:50.972670 2023] [mpm_winnt:notice] [pid 8156:tid 908] AH00430: Parent: Child process 17952 exited successfully.
+[Sun Apr 16 15:47:03.904680 2023] [mpm_winnt:notice] [pid 19856:tid 916] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:47:03.904680 2023] [mpm_winnt:notice] [pid 19856:tid 916] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:47:03.904680 2023] [core:notice] [pid 19856:tid 916] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:47:03.905694 2023] [mpm_winnt:notice] [pid 19856:tid 916] AH00418: Parent: Created child process 13748
+[Sun Apr 16 15:47:04.146084 2023] [mpm_winnt:notice] [pid 13748:tid 1468] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:48:55.172292 2023] [mpm_winnt:notice] [pid 19856:tid 916] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:48:57.188870 2023] [mpm_winnt:notice] [pid 13748:tid 1468] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:48:59.361850 2023] [mpm_winnt:notice] [pid 19856:tid 916] AH00430: Parent: Child process 13748 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:51:46.702812 2023] [mpm_winnt:notice] [pid 11092:tid 524] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 15:51:46.702812 2023] [mpm_winnt:notice] [pid 11092:tid 524] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 15:51:46.702812 2023] [core:notice] [pid 11092:tid 524] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 15:51:46.702812 2023] [mpm_winnt:notice] [pid 11092:tid 524] AH00418: Parent: Created child process 14068
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 15:51:46.939423 2023] [mpm_winnt:notice] [pid 14068:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 15:54:20.223713 2023] [mpm_winnt:notice] [pid 11092:tid 524] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 15:54:22.238480 2023] [mpm_winnt:notice] [pid 14068:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 15:54:22.282005 2023] [mpm_winnt:notice] [pid 11092:tid 524] AH00430: Parent: Child process 14068 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 16:34:19.792185 2023] [mpm_winnt:notice] [pid 5300:tid 472] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 16:34:19.792185 2023] [mpm_winnt:notice] [pid 5300:tid 472] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 16:34:19.792185 2023] [core:notice] [pid 5300:tid 472] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 16:34:19.792185 2023] [mpm_winnt:notice] [pid 5300:tid 472] AH00418: Parent: Created child process 10556
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 16:34:20.482240 2023] [mpm_winnt:notice] [pid 10556:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 16:42:00.597678 2023] [mpm_winnt:notice] [pid 5300:tid 472] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 16:42:02.609962 2023] [mpm_winnt:notice] [pid 10556:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 16:42:02.641444 2023] [mpm_winnt:notice] [pid 5300:tid 472] AH00430: Parent: Child process 10556 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 16:42:05.732793 2023] [mpm_winnt:notice] [pid 5116:tid 844] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 16:42:05.732793 2023] [mpm_winnt:notice] [pid 5116:tid 844] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 16:42:05.732793 2023] [core:notice] [pid 5116:tid 844] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 16:42:05.732793 2023] [mpm_winnt:notice] [pid 5116:tid 844] AH00418: Parent: Created child process 17292
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 16:42:05.953304 2023] [mpm_winnt:notice] [pid 17292:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 16:59:28.513768 2023] [mpm_winnt:notice] [pid 5116:tid 844] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 16:59:30.539634 2023] [mpm_winnt:notice] [pid 17292:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 16:59:30.571493 2023] [mpm_winnt:notice] [pid 5116:tid 844] AH00430: Parent: Child process 17292 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 17:02:25.705377 2023] [mpm_winnt:notice] [pid 17316:tid 872] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 17:02:25.705377 2023] [mpm_winnt:notice] [pid 17316:tid 872] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 17:02:25.705377 2023] [core:notice] [pid 17316:tid 872] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 17:02:25.705377 2023] [mpm_winnt:notice] [pid 17316:tid 872] AH00418: Parent: Created child process 4980
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 17:02:25.944445 2023] [mpm_winnt:notice] [pid 4980:tid 1496] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 16 17:09:57.985686 2023] [mpm_winnt:notice] [pid 17316:tid 872] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Apr 16 17:10:00.000809 2023] [mpm_winnt:notice] [pid 4980:tid 1496] AH00364: Child: All worker threads have exited.
+[Sun Apr 16 17:10:00.041935 2023] [mpm_winnt:notice] [pid 17316:tid 872] AH00430: Parent: Child process 4980 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 17:10:05.010908 2023] [mpm_winnt:notice] [pid 12708:tid 896] AH00455: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6 configured -- resuming normal operations
+[Sun Apr 16 17:10:05.010908 2023] [mpm_winnt:notice] [pid 12708:tid 896] AH00456: Server built: Apr 23 2021 08:21:27
+[Sun Apr 16 17:10:05.010908 2023] [core:notice] [pid 12708:tid 896] AH00094: Command line: 'D:\\Run\\phpOnly\\apache\\bin\\httpd.exe -d D:/Run/phpOnly/apache'
+[Sun Apr 16 17:10:05.010908 2023] [mpm_winnt:notice] [pid 12708:tid 896] AH00418: Parent: Created child process 12736
+PHP Warning:  PHP Startup: Unable to load dynamic library 'PbIdea.dll' (tried: ext\\PbIdea.dll (%1 \xe4\xb8\x8d\xe6\x98\xaf\xe6\x9c\x89\xe6\x95\x88\xe7\x9a\x84 Win32 \xe5\xba\x94\xe7\x94\xa8\xe7\xa8\x8b\xe5\xba\x8f\xe3\x80\x82), ext\\php_PbIdea.dll.dll (\xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9d\x97\xe3\x80\x82)) in Unknown on line 0
+[Sun Apr 16 17:10:05.247287 2023] [mpm_winnt:notice] [pid 12736:tid 1496] AH00354: Child: Starting 64 worker threads.
