@@ -13,7 +13,7 @@ phpOnly 是基于 `PowerBuilder` 语言开发的 php 开发环境，集成了 ap
 
 **码云：**
 
-> 项目地址：https://gitee.com/zisay/TkApi 	（ 国内访问速度快 ）
+> 项目地址：https://gitee.com/zisay/phpOnly	（ 国内访问速度快 ）
 
 若您有任何疑问或建议反馈，都可以通过以下方式联系到我，我非常愿意倾听您的建议与观点！
 
@@ -56,7 +56,9 @@ phpOnly 是基于 `PowerBuilder` 语言开发的 php 开发环境，集成了 ap
 <p style='color:red'>注意：安装过程中可能会有以下报错</p>
 
 **1、端口被占用**
+
 phpOnly 中的 `apache` 的默认端口是 `8080` 端口
+
 如果您的计算机中 `8080` 端口被占用，建议结束占用端口的程序，或者您也可以修改 `httpd.conf` 配置文件，将端口修改为其他端口。  
 
 **2、查看 apache 错误命令**
